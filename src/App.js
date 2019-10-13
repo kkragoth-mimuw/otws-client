@@ -62,7 +62,7 @@ class App extends React.Component {
     const top = 400 - ((vote.y + 10) / 20 * 400);
 
     return (
-        <div className="vote" style={{left, top, backgroundColor: vote.class === 'CS'?  'black': 'orange'}}
+        <div className="vote" style={{left, top, backgroundColor: vote.class === 'Computer Science'?  'black': 'orange'}}
              onMouseEnter={() => this.setState(state => ({hoveredIndex: index}))}
              onMouseLeave={() => this.setState(state => ({hoveredIndex: undefined}))}
                  />
