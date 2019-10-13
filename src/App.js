@@ -16,12 +16,13 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-      fetch("http://students.mimuw.edu.pl:6969/results",{'mode': 'no-cors'})
+      fetch("http://students.mimuw.edu.pl:6969/results")
           .then(res => res.json())
           .then(
               (result) => {
+                  console.log(result);
                   this.setState({
-                      votes: result.votes
+                      votes: result.results
                   });
               })
           .catch(function (err) {
