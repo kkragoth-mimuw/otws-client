@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+
+}
+
+.red {
+  background: #ff7e84;
+}
+.blue {
+  background: #7c80ff;
+}
+.green {
+  background: #83fd84;
+}
+.purple {
+  background: #ff81fb;
+}
+
+.vote {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.App {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
