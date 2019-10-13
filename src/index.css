@@ -43,8 +43,8 @@ code {
 
 .vote {
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   background-color: #000000;
   cursor: pointer;
